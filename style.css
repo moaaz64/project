@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background: #27262d;
+}
+
+ul{
+
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    justify-content: center;
+  
+  
+}
+nav{
+   margin-top: -50px;
+
+}
+.h1-100{
+    color: #ffd500;
+   
+}
+span{
+    color: rgb(255, 255, 255);
+}
+.p-100{
+    color: #ffff;
+}
+.ilo{
+    justify-content: end;
+    margin-top: -75px;
+
+}
+.home{
+    display: flex;
+}
+
+.about{
+    color: #fff;
+}
+
+a{
+    
+    margin-left: 30px;
+    text-decoration: none;
+color: rgb(139, 139, 137);
+    padding: 10px;
+    border-radius: 1000px;
+}
+.search{
+padding: 10px;
+border: solid 0;
+background-color: #3e3d3d;
+border-radius: 10px;
+}
+button{
+    border: solid 0;
+}
+.to{
+margin-top: 40px;
+color: #f8d31a;
+border: solid 1px #f8d31a ;
+border-radius: 10px;
+padding: 10px;
+margin-left: -40px;
+}
+.to:hover{
+   background-color: #ffd500;
+   color: #000;
+   transition: 0.2s;
+}
+.view{
+    background-color:#f8d31a ;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+
+.top-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.view:hover{
+    background-color: #27262d;
+    border: solid 1px #f8d31a;
+    color: #fff;
+ transition: 0.2s;
+}
+.skills{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   padding: 50px;
+}
+.img-svg-div{
+
+margin-left: 50px;
+
+}
+.h1-skills{
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.Portfolio{
+display: flex;
+justify-content: center;
+
+}
+
+.Portfolioo{
+    color: #fff;
+text-align: center;
+justify-content: center;
+}
+.Experience{
+    color: #fff;
+    background-color: #3e3d3d;
+    position: relative;
+    padding: 20px;
+}
+.Testimonial{
+    color: #fff;
+}
+.Me{
+color: #fff;
+text-align: center;
+
+}
+.Thanks{
+    color: #f8d31a;
+    text-align: center;
+}
+header{
+ padding: 50px;
+border: solid 1px #f8d31a;
+
+z-index: -1;
+
+}
+a:hover{
+    color: #fff;
+    transition: 0.2s;
+}
+.img-svg{
+    width: 80px;
+    height: 80px;
+    position: relative;
+
+}
+.img-svg-div{
+    background-color: #3e3d3d;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.div-top-img{
+    margin-left: 20px;
+    }
+.home-img-div{
+    margin-left: 1000px;
+ margin-top: -100px;
+}
+.Testimonial-img{
+    border-radius: 10px;
+    background: #f8d31a;
+    width: 250px;
+margin-top: -360px;
+    position:absolute;
+    margin-left: 1211px;
+    
+}
+.Contact{
+    background-color: #3e3d3d;
+padding: 30px;
+
+}
+.fa-solid{
+    background-color: #3e3d3d;
+    position: absolute;
+ margin-left: -170px;
+margin-top: 2px;
+}
+.contact-h1{
+    background-color: #3e3d3d;
+
+}
+@media  screen and (max-width: 800px){
+    .skills{
+      
+
+       display: inline;
+    }
+
+    .div-top-img{
+     margin-left: 1px;
+     margin-left: 30px;
+    }
+
+  .ilo{
+    margin-top: -15px;
+    justify-content: center;
+}
+.home-img-div{
+margin-left: 300px;
+ margin-top: 10px;
+}
+
+    .Testimonial-img{
+        border-radius: 10px;
+        background: #f8d31a;
+        margin-top: 40px; 
+        width: 200px;
+        position:absolute;
+        margin-left: 255px;
+        
+    }
+
+}
+@media screen and (max-width: 500px){
+    .svg-nav{
+        display: none;
+    }
+    .home-img-div{
+        margin-left: -50px;
+        width: 357px;
+        height: 500px;
+       
+        }
+        .div-top-img{
+            margin-left: 25px;
+        }
+        .img-svg-div{
+            margin-left: -8px;
+  
+        }
+        .Portfolio{
+            display:inline ;
+           
+            
+        }
+        .Testimonial-img{
+
+            border-radius: 10px;
+             background: #f8d31a;
+             margin-top: 40px; 
+             width: 200px;
+             position:absolute;
+             margin-left: 30px;
+        }
+        nav{
+            overflow: scroll;
+              }
+     
+}
+@media screen and (max-width: 425px){
+
+.contact-span{
+ display: none;
+}
+.fa-solid{
+    margin-left: -130px;
+}
+
+}
+@media screen and (max-width: 400px){
+
+
+    .fa-solid{
+       margin-left: -120px;
+    }
+    
+    }
+    @media screen and (max-width: 336px){
+
+
+        .fa-solid{
+           margin-left: -110px;
+        }
+        
+        }
